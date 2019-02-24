@@ -1,0 +1,33 @@
+DarkMagic-OS
+===========
+
+
+Getting Started
+---------------
+To get started with the DarkMagic-OS sources, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
+
+
+Create the Directories
+----------------------
+
+You will need to create a directory, So follow the command below
+
+    mkdir -p ~/bin
+    mkdir -p ~/DarkMagic
+
+
+For Initialize use the command below in you terminal
+----------------------------------------
+    repo init -u https://github.com/DarkMagic-OS/android_manifest.git -b pie && repo sync -j16
+
+
+Building the ROM
+---------------
+
+Before starting to built just initialize and then start 
+
+    . build/envsetup.sh
+    brunch
+
+Enjoy your rom!
